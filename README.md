@@ -10,7 +10,7 @@ The goal is to demonstrate the integration of modern **Data Engineering** tools 
 
 The data flow follows an **End-to-End** journey designed to ensure data traceability and quality, orchestrated entirely within containers.
 
-![Architecture & Data Flow Diagram](images/architecture_diagram.png)
+![Architecture](images/architecture_diagram.png)
 
 
 

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: aemet     
+    database: weather_db
+    schema: raw             # El esquema donde Airflow guarda los datos (Capa Bronze)
+    tables:
+      - name: prediccion_horaria

@@ -1,0 +1,32 @@
+# Airflow
+logs/
+plugins/
+airflow.cfg
+airflow.db
+unittests.cfg
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+
+dbt_project/profiles.yml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.pytest_cache/
+
+# Datos y Bases de Datos  
+*.db
+*.sqlite
+datos_aemet.db
+
+# OS
+.DS_Store
+Thumbs.db

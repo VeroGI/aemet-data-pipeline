@@ -1,0 +1,18 @@
+
+# Este es un archivo de ejemplo. 
+# Para usarlo: 
+# 1. Copia este contenido en un nuevo archivo llamado 'profiles.yml'
+# 2. Asegúrate de que los valores coincidan con tu configuración de Docker/Postgres
+
+aemet_dbt:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost # Usa 'localhost' si ejecutas dbt desde tu máquina, o 'postgres' si es desde Docker
+      user: tu_usuario_aqui
+      password: tu_password_aqui
+      port: 5432
+      dbname: weather_db
+      schema: public
+      threads: 1
+  target: dev
